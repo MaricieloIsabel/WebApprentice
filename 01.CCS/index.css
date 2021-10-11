@@ -1,0 +1,18 @@
+h1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 19pt;
+    color: orangered;
+    text-align: center;
+    }
+    h2 {
+        font-family: serif;
+        font-size: 15pt;
+        color: rgba(253, 0, 0, 0.986);
+        text-align: initial;
+        }
+        h3 {
+            font-family: serif;
+            font-size: 12pt;
+            color: rgb(119, 12, 12);
+            text-align: initial;
+            }
