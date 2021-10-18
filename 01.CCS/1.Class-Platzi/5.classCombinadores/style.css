@@ -1,0 +1,20 @@
+/* Aplicale el color rojo a todas la etiquetas p que estean cer de un h2 significa el +*/
+/* Hermano adyacente o cercano Adjaceng sibling*/
+h2 + p {
+    color: red;
+}
+/* signo de virguilla ... significa que todo span que tnga como hermano general a un h1 va a tomar el color red */
+/* general sibling */
+h1 ~ span {
+    color: blue;
+}
+/* chilld o hijo directo */
+/* se lee el padre div sea mayor a la etiqueta p o que la etiqueta parrafo se hija directa de una etiqueta div */
+main > p {
+    color: rgb(30, 102, 12);
+}
+/* Decendant o descendientes */
+/* en este no se utiliza ningun simbolo es el mas comun*/
+ul p {
+    color: rgb(8, 119, 82);
+}
