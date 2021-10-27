@@ -1,0 +1,12 @@
+main {
+    background-color: red;
+    width: 600px;
+    height: 500px;
+}
+p {
+    font-size: 15px;
+}
+    /* font-size: 50%;
+    es una medida relativa varia de acuerdo al dispositivo en que se encuentre */
+    /* font-size: 18px;
+    Los px no varian sin importar los dispositivos */

@@ -1,0 +1,24 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+main {
+    width: 100vw;
+    height: 100vh;
+    /* Esto va a hacer que el contenedor de main ocupe el 100% del width om  del heigth sin importar la pantalla*/
+    background-color: purple;
+}
+section {
+    width: 80%;
+    min-width: 320px;
+    /* La propiedad min-width se usa para determinar la anchura mínima de un elemento */
+    /* Cuando usemos el min o el max width necesitamos tener un width y casi siempre este se presenta en porcentaje */
+    max-width: 500px;
+    /* Con el max-width podemos limitar el crecimiento */
+    height: 500px;
+    /* Si le coloco min-height: 500px; quiere decir que el contenedor va a ener como minimo 500px px sin embargo va poder crecer lo necesario hasta que cubra todo el texto */
+    margin: 0 auto;
+    /* Lo de arriba quiere decir de arriba abajo no le agregues margin (0) y deizquierda a derecha haz margin se logre ajustar de forma automatica  */
+    background-color: red;
+}
